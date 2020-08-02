@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="c31e96da-c884-472f-ab40-5b86586f413b" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8070/AG_Common.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="AG_Common3.xsd" MetadataType="Schema" ID="62e11c99-c454-4def-879f-4f0d950336ec" SourceId="1" SourceUrl="http://g1ml19618.mindtree.com:8070/AG_Common.svc?xsd=xsd5" />
+    <MetadataFile FileName="AG_Common.xsd" MetadataType="Schema" ID="4469a5f1-7304-4f1e-8b24-ccae6689fa49" SourceId="1" SourceUrl="http://g1ml19618.mindtree.com:8070/AG_Common.svc?xsd=xsd2" />
+    <MetadataFile FileName="AG_Common.wsdl" MetadataType="Wsdl" ID="75224220-fe36-42ff-8a05-e2c9e6e559e0" SourceId="1" SourceUrl="http://g1ml19618.mindtree.com:8070/AG_Common.svc?wsdl" />
+    <MetadataFile FileName="AG_Common1.xsd" MetadataType="Schema" ID="327708ca-513b-43ab-a6b3-09a0151fdb48" SourceId="1" SourceUrl="http://g1ml19618.mindtree.com:8070/AG_Common.svc?xsd=xsd0" />
+    <MetadataFile FileName="AG_Common.disco" MetadataType="Disco" ID="2c0dfe48-4268-443b-a467-227f7f556392" SourceId="1" SourceUrl="http://g1ml19618.mindtree.com:8070/AG_Common.svc?disco" />
+    <MetadataFile FileName="AG_Common2.xsd" MetadataType="Schema" ID="308dfef4-2b01-4c43-b11c-c44599979911" SourceId="1" SourceUrl="http://g1ml19618.mindtree.com:8070/AG_Common.svc?xsd=xsd1" />
+    <MetadataFile FileName="AG_Common1.wsdl" MetadataType="Wsdl" ID="056c7862-2121-4ce4-a99c-1931c489a9be" SourceId="1" SourceUrl="http://g1ml19618.mindtree.com:8070/AG_Common.svc?wsdl=wsdl0" />
+    <MetadataFile FileName="AG_Common31.xsd" MetadataType="Schema" ID="3d5c0d4f-980c-44ba-a9e6-83ce1ca1aeef" SourceId="1" SourceUrl="http://g1ml19618.mindtree.com:8070/AG_Common.svc?xsd=xsd3" />
+    <MetadataFile FileName="AG_Common32.xsd" MetadataType="Schema" ID="e53e304a-83dd-4e58-bec2-d417c1fd2128" SourceId="1" SourceUrl="http://g1ml19618.mindtree.com:8070/AG_Common.svc?xsd=xsd4" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

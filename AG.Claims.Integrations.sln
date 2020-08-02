@@ -1,0 +1,103 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AG.Claims.XactConnect", "AG.Claims.XACTConnect\AG.Claims.XactConnect.csproj", "{1083E063-AE02-4C0F-BA32-23E328B4B2FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AG.Claims.Common", "AG.Claims.Common\AG.Claims.Common.csproj", "{9EEB304E-CD66-45F1-B637-4CDDC2F74915}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AG.Claims.ATP", "AG.Claims.ATP\AG.Claims.ATP.csproj", "{1FEC4037-A3F6-48E7-B30A-185C1809FC30}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AG.Claims.Integration.Build", "AG.Claims.Integration.Build\AG.Claims.Integration.Build.csproj", "{FC371593-C6A4-4D14-8AA5-94DB900FCB53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AG.Claims.CheckWriting", "AG.Claims.CheckWriting\AG.Claims.CheckWriting.csproj", "{E9F86658-4ACA-474A-A6DE-BA737F8401C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AG.Claims.IVAuto", "AG.Claims.IVAuto\AG.Claims.IVAuto.csproj", "{E53FBE63-DDF8-47FB-ABF1-ACE99D0C76E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AG.Claims.ClueDataExchange", "AG.Claims.ClueDataExchange\AG.Claims.ClueDataExchange.csproj", "{C6A39C9D-CCB6-4E32-B4AC-8F116103297A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AG.Claims.Audatex", "AG.Claims.Audatex\AG.Claims.Audatex.csproj", "{E103C922-2933-45C9-80DE-053E7F1066BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AG.Claims.LXNX", "AG.Claims.LXNX\AG.Claims.LXNX.csproj", "{EDE8F525-AF4D-47D3-AE66-4DE5DC00CA3B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1083E063-AE02-4C0F-BA32-23E328B4B2FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1083E063-AE02-4C0F-BA32-23E328B4B2FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1083E063-AE02-4C0F-BA32-23E328B4B2FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1083E063-AE02-4C0F-BA32-23E328B4B2FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EEB304E-CD66-45F1-B637-4CDDC2F74915}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EEB304E-CD66-45F1-B637-4CDDC2F74915}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EEB304E-CD66-45F1-B637-4CDDC2F74915}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EEB304E-CD66-45F1-B637-4CDDC2F74915}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FEC4037-A3F6-48E7-B30A-185C1809FC30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FEC4037-A3F6-48E7-B30A-185C1809FC30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FEC4037-A3F6-48E7-B30A-185C1809FC30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FEC4037-A3F6-48E7-B30A-185C1809FC30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC371593-C6A4-4D14-8AA5-94DB900FCB53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC371593-C6A4-4D14-8AA5-94DB900FCB53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC371593-C6A4-4D14-8AA5-94DB900FCB53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC371593-C6A4-4D14-8AA5-94DB900FCB53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9F86658-4ACA-474A-A6DE-BA737F8401C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9F86658-4ACA-474A-A6DE-BA737F8401C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9F86658-4ACA-474A-A6DE-BA737F8401C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9F86658-4ACA-474A-A6DE-BA737F8401C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E53FBE63-DDF8-47FB-ABF1-ACE99D0C76E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E53FBE63-DDF8-47FB-ABF1-ACE99D0C76E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E53FBE63-DDF8-47FB-ABF1-ACE99D0C76E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E53FBE63-DDF8-47FB-ABF1-ACE99D0C76E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6A39C9D-CCB6-4E32-B4AC-8F116103297A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6A39C9D-CCB6-4E32-B4AC-8F116103297A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6A39C9D-CCB6-4E32-B4AC-8F116103297A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6A39C9D-CCB6-4E32-B4AC-8F116103297A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E103C922-2933-45C9-80DE-053E7F1066BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E103C922-2933-45C9-80DE-053E7F1066BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E103C922-2933-45C9-80DE-053E7F1066BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E103C922-2933-45C9-80DE-053E7F1066BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDE8F525-AF4D-47D3-AE66-4DE5DC00CA3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDE8F525-AF4D-47D3-AE66-4DE5DC00CA3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDE8F525-AF4D-47D3-AE66-4DE5DC00CA3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDE8F525-AF4D-47D3-AE66-4DE5DC00CA3B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 10
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://anchorgeneral.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = AG.Claims.XACTConnect\\AG.Claims.XactConnect.csproj
+		SccProjectName1 = AG.Claims.XACTConnect
+		SccLocalPath1 = AG.Claims.XACTConnect
+		SccProjectUniqueName2 = AG.Claims.Common\\AG.Claims.Common.csproj
+		SccProjectName2 = AG.Claims.Common
+		SccLocalPath2 = AG.Claims.Common
+		SccProjectUniqueName3 = AG.Claims.ATP\\AG.Claims.ATP.csproj
+		SccProjectName3 = AG.Claims.ATP
+		SccLocalPath3 = AG.Claims.ATP
+		SccProjectUniqueName4 = AG.Claims.Integration.Build\\AG.Claims.Integration.Build.csproj
+		SccProjectName4 = AG.Claims.Integration.Build
+		SccLocalPath4 = AG.Claims.Integration.Build
+		SccProjectUniqueName5 = AG.Claims.CheckWriting\\AG.Claims.CheckWriting.csproj
+		SccProjectName5 = AG.Claims.CheckWriting
+		SccLocalPath5 = AG.Claims.CheckWriting
+		SccProjectUniqueName6 = AG.Claims.IVAuto\\AG.Claims.IVAuto.csproj
+		SccProjectName6 = AG.Claims.IVAuto
+		SccLocalPath6 = AG.Claims.IVAuto
+		SccProjectUniqueName7 = AG.Claims.ClueDataExchange\\AG.Claims.ClueDataExchange.csproj
+		SccProjectName7 = AG.Claims.ClueDataExchange
+		SccLocalPath7 = AG.Claims.ClueDataExchange
+		SccProjectUniqueName8 = AG.Claims.Audatex\\AG.Claims.Audatex.csproj
+		SccProjectName8 = AG.Claims.Audatex
+		SccLocalPath8 = AG.Claims.Audatex
+		SccProjectUniqueName9 = AG.Claims.LXNX\\AG.Claims.LXNX.csproj
+		SccProjectName9 = AG.Claims.LXNX
+		SccLocalPath9 = AG.Claims.LXNX
+	EndGlobalSection
+EndGlobal

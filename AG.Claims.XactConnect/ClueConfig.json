@@ -1,0 +1,48 @@
+{
+
+  
+
+  "Header": {
+    "Constant": "##!!",
+    "RecordIndentifier": "SAC#",
+    "TransmissionDate": "",
+    "TransmissionTime": "",
+    "ApplicationId": "CLUE",
+    "SecondaryPassword": "",
+    "SourceId": "D05862FTP",
+    "DestinationId": "A00013003",
+    "CustomerName": "",
+    "RecordFormat": "",
+    "PrintImageControl": "",
+    "MaxRecordLength": "",
+    "RestartReqLevel": "",
+    "RestartBlockNumber": "",
+    "TransactionFormat": "",
+    "FileSize": "",
+    "FileSizeUnits": "",
+    "AlternateDate": "yyyyMMdd",
+    "Filler1": "",
+    "DestinationFileName": "CLUE_HISTORY",
+    "ReportingBeginDate": "",
+    "ReportingEndDate": "",
+    "Filler2": "",
+    "DestinationPathName": ""
+
+  },
+  "Trailer": {
+    "Constant": "##!!",
+    "RecordIndentifier": "SAT#",
+    "TransmissionDate": "",
+    "TransmissionTime": "",
+    "ApplicationId": "CLUE",
+    "Filler1": "",
+    "SourceId": "D05862FTP",
+    "TotalRecords": "",
+    "TotalBlocks": "",
+    "TotalBytes": "",
+    "AlternateDate": "yyyyMMdd",
+    "Filler2": "",
+    "ApplicationArea": ""
+  },
+  "Punctuation": "[^a-zA-Z0-9]"
+}

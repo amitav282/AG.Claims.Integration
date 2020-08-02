@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="6b946479-88cf-4f26-b0f3-f2f094716023" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8071/AG_Audatex.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="AG_Audatex.xsd" MetadataType="Schema" ID="5dfdc80c-d178-46f6-9850-9ab0131d9bad" SourceId="1" SourceUrl="http://localhost:8071/AG_Audatex.svc?xsd=xsd0" />
+    <MetadataFile FileName="AG_Audatex1.xsd" MetadataType="Schema" ID="ef99d9ad-7882-4f4b-8eb7-5020c4464965" SourceId="1" SourceUrl="http://localhost:8071/AG_Audatex.svc?xsd=xsd1" />
+    <MetadataFile FileName="AG_Audatex.disco" MetadataType="Disco" ID="287c50d3-b751-45ad-8b0b-9602eb648541" SourceId="1" SourceUrl="http://localhost:8071/AG_Audatex.svc?disco" />
+    <MetadataFile FileName="AG_Audatex.wsdl" MetadataType="Wsdl" ID="0898c030-61a2-4900-9fe7-4e5064885c5d" SourceId="1" SourceUrl="http://localhost:8071/AG_Audatex.svc?wsdl=wsdl0" />
+    <MetadataFile FileName="AG_Audatex1.wsdl" MetadataType="Wsdl" ID="75f30583-0ea9-4007-a99a-6c7576b6766c" SourceId="1" SourceUrl="http://localhost:8071/AG_Audatex.svc?wsdl" />
+    <MetadataFile FileName="AG_Audatex2.xsd" MetadataType="Schema" ID="03ce9c53-f0c7-402f-87ec-9e3be1917f0d" SourceId="1" SourceUrl="http://localhost:8071/AG_Audatex.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

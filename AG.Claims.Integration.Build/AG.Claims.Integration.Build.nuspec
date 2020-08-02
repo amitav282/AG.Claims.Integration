@@ -1,0 +1,17 @@
+﻿<?xml version="1.0"?>
+<package xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <metadata xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <id>AG.Claims.Integration</id>
+    <version>$version$</version>
+    <authors>Moody Amakobe</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Claims Int solution</description>
+  </metadata>
+  <files>
+    <file src="bin\Release\AG*.dll" target="AFS.Claims\bin" />
+	 <file src="bin\Release\AG*.pdb" target="AFS.Claims\bin" />
+
+    <file src="bin\Release\AG*.dll" target="AFS.Claims.WCF\bin" />
+    <file src="bin\Release\AG*.pdb" target="AFS.Claims.WCF\bin" />
+  </files>
+</package>

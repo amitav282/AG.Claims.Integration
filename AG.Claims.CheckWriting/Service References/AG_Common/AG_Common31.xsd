@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://epc.accenture.com/2013/06/26/Type" elementFormDefault="qualified" targetNamespace="http://epc.accenture.com/2013/06/26/Type" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://g1ml19618.mindtree.com:8070/AG_Common.svc?xsd=xsd4" namespace="http://schemas.datacontract.org/2004/07/AFS.Architecture.Common" />
+  <xs:complexType name="PartyAddressDTO">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q1="http://schemas.datacontract.org/2004/07/AFS.Architecture.Common" base="q1:DTOBase">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="AddressID" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Comment" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="EffectiveDate" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="ExpirationDate" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="ExternalPartyAddressID" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="IsPrimary" type="xs:boolean" />
+          <xs:element minOccurs="0" name="IsTaxAddress" type="xs:boolean" />
+          <xs:element minOccurs="0" name="LastTransactionID" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="LastUpdatedDate" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="PartyAddressID" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="PartyID" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="SubComment" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="IsDefault" type="xs:boolean" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="PartyAddressDTO" nillable="true" type="tns:PartyAddressDTO" />
+  <xs:complexType name="PartyNameDTO">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q2="http://schemas.datacontract.org/2004/07/AFS.Architecture.Common" base="q2:DTOBase">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="AllowPartial" type="xs:boolean" />
+          <xs:element minOccurs="0" name="CountryCode" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="EffectiveDate" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="ExpirationDate" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="ExternalPartyNameID" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="GeographicFormatCode" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="IsPrimary" type="xs:boolean" />
+          <xs:element minOccurs="0" name="IsTaxName" type="xs:boolean" />
+          <xs:element minOccurs="0" name="LastTransactionID" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="LastUpdatedDate" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="PartyID" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="PartyNameID" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="IsDefault" type="xs:boolean" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="PartyNameDTO" nillable="true" type="tns:PartyNameDTO" />
+</xs:schema>

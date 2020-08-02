@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="5063c149-2b3a-4db6-94ca-b63762fd260f" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="https://novo-demo.audatexsolutions.com/APIGateway/Audatex.B2B.FNOLService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Audatex.disco" MetadataType="Disco" ID="59bb6ca6-554f-4de7-ae42-9c61d24e7458" SourceId="1" SourceUrl="https://novo-demo.audatexsolutions.com/APIGateway/Audatex.B2B.FNOLService.svc?disco" />
+    <MetadataFile FileName="AudatexB2BFNOLService.wsdl" MetadataType="Wsdl" ID="f3f4d3b0-2583-4808-aee9-2f86ebc90fd5" SourceId="1" SourceUrl="https://novo-demo.audatexsolutions.com/APIGateway/Audatex.B2B.FNOLService.svc?wsdl" />
+    <MetadataFile FileName="Audatex.wsdl" MetadataType="Wsdl" ID="93f41ef1-b64b-4340-8328-26a66ad63f6c" SourceId="1" SourceUrl="https://novo-demo.audatexsolutions.com/APIGateway/Audatex.B2B.FNOLService.svc?wsdl=wsdl0" />
+    <MetadataFile FileName="Audatex1.xsd" MetadataType="Schema" ID="6f1fa991-0a00-4759-ad1a-d639eba10bf2" SourceId="1" SourceUrl="https://novo-demo.audatexsolutions.com/APIGateway/Audatex.B2B.FNOLService.svc?xsd=xsd2" />
+    <MetadataFile FileName="Audatex2.xsd" MetadataType="Schema" ID="3beecfba-4e50-47ae-8242-3b41f57cf55a" SourceId="1" SourceUrl="https://novo-demo.audatexsolutions.com/APIGateway/Audatex.B2B.FNOLService.svc?xsd=xsd1" />
+    <MetadataFile FileName="Audatex3.xsd" MetadataType="Schema" ID="594d1696-fc22-47cd-a198-f45e3a1781a0" SourceId="1" SourceUrl="https://novo-demo.audatexsolutions.com/APIGateway/Audatex.B2B.FNOLService.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0"?>
+<package xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <metadata xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <id>AG.Claims.XactConnect</id>
+    <version>$version$</version>
+    <authors>Mindtree</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Claims Integration solution</description>
+  </metadata>
+  <files>
+    <!--<file src="bin\Release\*.dll" target="bin" />
+	 <file src="bin\Release\*.pdb" target="bin" />-->
+    <file src="bin\*.dll" target="bin" />
+    <file src="bin\*.pdb" target="bin" />
+    <file src="*.svc"  />
+    <file src="*.config"/>
+    <file src="*.json"/>
+  </files>
+</package>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/AFS.Architecture.Common" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/AFS.Architecture.Common" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://g1ml19618.mindtree.com:8070/AG_Common.svc?xsd=xsd5" namespace="http://schemas.datacontract.org/2004/07/AFS.AEF" />
+  <xs:complexType name="DTOBase">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q1="http://schemas.datacontract.org/2004/07/AFS.AEF" base="q1:DtoValidationBase">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="EntityAuthLevel" type="q1:AuthorizationLevel" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="DTOBase" nillable="true" type="tns:DTOBase" />
+</xs:schema>

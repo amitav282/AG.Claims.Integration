@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="AG.Claims.XactConnect.IVAutoService" CodeBehind="IVAutoService.svc.cs" %>

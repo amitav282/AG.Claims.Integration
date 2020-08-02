@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://g1ml19618.mindtree.com:8070/AG_Common.svc?xsd=xsd2" />
+  <xs:import schemaLocation="http://g1ml19618.mindtree.com:8070/AG_Common.svc?xsd=xsd3" namespace="http://epc.accenture.com/2013/06/26/Type" />
+  <xs:element name="GetCheckPrintingInformation">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetCheckPrintingInformationResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetCheckPrintingInformationResult" nillable="true" type="ArrayOfAG_ClaimCheckWritingDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateCheckDetail">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="checkDetail" nillable="true" type="ArrayOfAG_ClaimCheckWritingDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateCheckDetailResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="UpdateCheckDetailResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertClaimHistoryOnParticipantChange">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="addressChange" type="xs:boolean" />
+        <xs:element xmlns:q1="http://epc.accenture.com/2013/06/26/Type" minOccurs="0" name="partyAddress" nillable="true" type="q1:PartyAddressDTO" />
+        <xs:element xmlns:q2="http://epc.accenture.com/2013/06/26/Type" minOccurs="0" name="partyName" nillable="true" type="q2:PartyNameDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertClaimHistoryOnParticipantChangeResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
